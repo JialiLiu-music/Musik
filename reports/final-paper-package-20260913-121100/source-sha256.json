@@ -1,0 +1,18 @@
+{
+  "/Users/jialiliu/Desktop/数据集/reports/frozen-inputs-20260913-120829/paper-results.json": {
+    "sha256": "7408a199cf28933effbfe5ec14bfe4fb6d8d3d75702d8ace9b9635e9d68c4192",
+    "size_bytes": 39030
+  },
+  "/Users/jialiliu/Desktop/数据集/reports/frozen-inputs-20260913-120829/formal-test-analysis.json": {
+    "sha256": "869bc9322b9e544e4bbe53542c77737ae79a3fa1bf04e62d5269bf3aceec95db",
+    "size_bytes": 25426
+  },
+  "reports/paper-tables.md": {
+    "sha256": "77a30330cfeadf4dcb845470a202a75e1f84c705f251f1a3c28edf7c18ed6316",
+    "size_bytes": 4990
+  },
+  "/Users/jialiliu/Desktop/数据集/render_paper_figures.py": {
+    "sha256": "d0ac8c39e5a4c55d84ed0a045ba731131007b018eaecc3c640952a5587b1c871",
+    "size_bytes": 5075
+  }
+}

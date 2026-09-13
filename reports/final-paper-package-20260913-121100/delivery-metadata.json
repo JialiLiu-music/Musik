@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "source_reports": [
+    "/Users/jialiliu/Desktop/数据集/reports/frozen-inputs-20260913-120829/paper-results.json",
+    "/Users/jialiliu/Desktop/数据集/reports/frozen-inputs-20260913-120829/formal-test-analysis.json"
+  ],
+  "source_table_template": "reports/paper-tables.md",
+  "renderer": "/Users/jialiliu/Desktop/数据集/render_paper_figures.py",
+  "outputs": [
+    "paper-tables-filled.md",
+    "figure-model-comparison.png",
+    "figure-boundary-error.png",
+    "figures-metadata.json",
+    "source-sha256.json",
+    "delivery-metadata.json"
+  ],
+  "protocol": {
+    "unit": "track",
+    "models": [
+      "b0",
+      "b1",
+      "b2",
+      "b3",
+      "s1"
+    ],
+    "automatic_structure_is_not_ground_truth": true,
+    "test_results_are_read_only": true
+  },
+  "source_sha256_file": "source-sha256.json"
+}

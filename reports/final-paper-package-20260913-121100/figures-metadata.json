@@ -1,0 +1,13 @@
+{
+  "source_reports": [
+    "/Users/jialiliu/Desktop/数据集/reports/frozen-inputs-20260913-120829/paper-results.json",
+    "/Users/jialiliu/Desktop/数据集/reports/frozen-inputs-20260913-120829/formal-test-analysis.json"
+  ],
+  "figures": [
+    "figure-model-comparison.png",
+    "figure-boundary-error.png"
+  ],
+  "unit": "track",
+  "automatic_structure_is_not_ground_truth": true,
+  "test_results_are_read_only": true
+}

@@ -1,0 +1,29 @@
+{
+  "materials": [
+    "paper-draft.md",
+    "paper-materials.md",
+    "paper-tables.md",
+    "paper-figures-checklist.md",
+    "paper-captions-and-citations.md"
+  ],
+  "required_text_missing": [],
+  "frozen_values_missing": [],
+  "paper_sections_missing": [],
+  "paper_tables_missing": [],
+  "caption_sections_missing": [],
+  "dangerous_assertions_in_draft": [],
+  "remote_machine_readable_reports_local_copy": true,
+  "status": "ok",
+  "frozen_inputs": {
+    "directory": "reports/frozen-inputs-20260913-120829",
+    "missing_files": [],
+    "hash_mismatches": [],
+    "status": "ok"
+  },
+  "final_package": {
+    "directory": "reports/final-paper-package-20260913-121100",
+    "missing_files": [],
+    "invalid_files": [],
+    "status": "ok"
+  }
+}
