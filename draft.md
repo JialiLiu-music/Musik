@@ -1240,3 +1240,12 @@ import torch
 6. 确认论文代码仓库地址和分支，整理代码、正式图表、协议与来源记录后提交上传。本任务尚未进行 Git 提交或 GitHub 推送，工作目录 `/Users/jialiliu/Documents/app` 本身不是 Git 仓库。
 
 本次汇总不包含 SSH 密码，不宣称完成新的训练、消融、正式图表验收或 GitHub 发布。
+
+### 2026-09-17：GitHub 上传与正式材料核验
+
+- 仓库已确认：[JialiLiu-music/Musik](https://github.com/JialiLiu-music/Musik)，分支 `main`。
+- 进度与纠错说明已提交并成功推送：[915cfc5](https://github.com/JialiLiu-music/Musik/commit/915cfc5)。远程推送返回 `cad6ee6..915cfc5 HEAD -> main`。
+- 本次实际检查了仓库已有训练和评估代码、冻结输入及正式交付文件；运行 `python3 audit_paper_materials.py --reports-dir reports`，返回 `PAPER_MATERIALS_AUDIT status=ok`、`FROZEN_INPUTS_STATUS=ok`、`FINAL_PACKAGE_STATUS=ok`，四类错误计数均为 0。
+- 正式图表和填充表格沿用已纳入版本管理的 `reports/final-paper-package-20260913-121100/`；冻结来源沿用 `reports/frozen-inputs-20260913-120829/`。本次未重新训练或生成新图表。
+- 未上传 `/Users/jialiliu/Documents/app/experiments/` 中错误 Pearson 列、合成动态曲线及未经核验的旧图，也未将仍有协议冲突的 `实验步骤.md` 草稿纳入正式仓库。
+- 本条发布状态在首轮推送成功后追加，将作为后续文档提交同步至同一分支。未完成的科研事项仍以上节待办为准，GitHub 上传不代表消融实验和文献核验已完成。
